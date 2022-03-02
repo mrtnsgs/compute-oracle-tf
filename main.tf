@@ -50,7 +50,7 @@ locals {
     i => {
       node_name  = format("node%d", i)
       ip_address = format("10.0.0.%d", 10 + i)
-      role       = i == 1 ? "controlplane" : "worker"
+      role       = i == 1 ? "neo" : "agent-smith"
     }
   }
 }

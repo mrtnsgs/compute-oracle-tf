@@ -1,14 +1,14 @@
 variable "name" {
   type    = string
-  default = "pentest-machine"
+  default = "pentest-machines"
 }
 
 variable "shape" {
   type    = string
   // Shapes: https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm
   //default = "VM.Standard.A1.Flex"
-  // default = "VM.Standard3.Flex"
-  default = "VM.Standard.E2.1.Micro"
+  default = "VM.Standard.A1.Flex"
+  //default = "VM.Standard.E2.1.Micro"
 }
 
 variable "how_many_nodes" {
